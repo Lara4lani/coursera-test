@@ -1,0 +1,191 @@
+body{
+    background-color: rgba(139, 16, 57, 0.623);
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+p.chicken{
+    border: 2px solid rgb(255, 81, 139);
+    background-color: rgb(255, 81, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.beef{
+    border: 2px solid rgb(255, 81, 139);
+    background-color: rgb(255, 81, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+p.sushi{
+    border: 2px solid rgb(255, 81, 139);
+    background-color:rgb(255, 81, 139);
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p.bigblock{
+    background-color: rgb(255, 203, 220);
+    border: 2px solid rgb(255, 81, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 992px){
+    .bigblock{
+        width: 31%;
+        float: left;
+        padding-top: 4%;
+        padding-left:1.5% ;
+        padding-bottom: 1.5%;
+        margin-left: 1.5%;
+       height: 10%;
+    }
+    
+    .chicken{
+        width: 10%;
+        height: 8%;
+        padding: 0.5%;
+        padding-right: 0.5%;
+        padding-left: 2%;
+        position: absolute;
+        left: 22.7%;
+    }
+
+    .beef{
+        width: 10%;
+    height: 8%;
+    padding: 0.5%;
+    padding-right: 0.5%;
+    padding-left: 3.5%;
+    position: absolute;
+    left: 54.8%;
+    }
+
+    .sushi{
+        width: 10%;
+        height: 8%;
+        padding: 0.5%;
+        padding-right: 0.5%;
+        padding-left: 3%;
+        position: absolute;
+        left: 86.9%;
+    }
+    }
+
+    @media (min-width:768px) and (max-width:991px){
+        .bigblock{
+          width: 44%;
+          float: left;
+          padding-top: 4%;
+          padding-left:1.5% ;
+          padding-bottom: 1.5%;
+          margin-left: 2%;
+         height: 10%;
+         margin-right: 4%;
+        }
+
+        .bb2{
+            width: 94%;
+            height: 10%;
+            padding-top: 4%;
+            padding-left:1.5% ;
+            padding-bottom: 1.5%;
+        }
+
+        .chicken{
+        width: 15%;
+        height: 6%;
+        padding: 0.5%;
+        padding-right: 0.5%;
+        padding-left: 3%;
+        padding-top: 1%;
+        position: absolute;
+        left: 31.1%;
+        }
+
+        .beef{
+            width: 15%;
+            height: 6%;
+            padding: 0.5%;
+            padding-right: 0.5%;
+            padding-left: 4.5%;
+            padding-top: 1%;
+            position: absolute;
+            left: 80.2%;
+        }
+
+        .sushi{
+            width: 15%;
+            height: 6%;
+            padding: 0.5%;
+            padding-right: 0.5%;
+            padding-left: 4.5%;
+            padding-top: 1%;
+            position: absolute;
+            left: 80.2%;
+            top: 54.8%
+        }
+    }
+
+    @media (max-width: 767px){
+        .bigblock{
+            width: 94%;
+            float: left;
+            padding-top: 4%;
+            padding-left:1.5% ;
+            padding-bottom: 1.5%;
+            margin-left: 5%;
+           height: 10%;
+           margin-right: 5%;
+           margin-top: 2%;
+           margin-bottom: 2%;
+        }
+
+        .chicken{
+            width: 25%;
+            height: 6%;
+            padding: 0.5%;
+            padding-right: 0.5%;
+            padding-left: 4.5%;
+            padding-top: 1%;
+            position: absolute;
+            left: 72.3%;
+            top: 12.5%;
+        }
+
+        .beef{
+            width: 25%;
+            height: 6%;
+            padding: 0.5%;
+            padding-right: 0.5%;
+            padding-left: 4.5%;
+            padding-top: 1%;
+            position: absolute;
+            left: 72.3%;
+            top: 40.2%;
+        }
+
+        .sushi{
+            width: 25%;
+            height: 6%;
+            padding: 0.5%;
+            padding-right: 0.5%;
+            padding-left: 4.5%;
+            padding-top: 1%;
+            position: absolute;
+            left: 72.3%;
+            top: 67.9%;
+        }
+    }
