@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(185, 203, 224);
+}
+
+h1{
+    text-align: center;
+    color: rgb(77, 6, 143);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.food{
+    color: rgb(77, 6, 143);
+    border: 2px solid rgb(255, 81, 139);
+    background-color: rgb(255, 81, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+div{
+    color: rgb(77, 6, 143);
+    background-color: rgb(255, 203, 220);
+    border: 2px solid rgb(255, 81, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 992px){
+    div{
+        width: 31%;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .food{
+        float: right;
+        width: 31%;
+        padding: 2%;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .ptext, .ptext1{
+        padding-top: 7%;
+        padding-left: 5%;
+        padding-right: 2%;
+        text-align: start;
+    }
+
+    }
+
+    @media (min-width:768px) and (max-width:991px){
+        div{
+            width: 47%;
+            float: left;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+        }
+
+        .food{
+            float: right;
+            width: 31%;
+            padding: 2%;
+            text-align: center;
+            margin-top: 0%;
+        }
+
+        div#fish{
+            width: auto;
+            margin-top: 3%;
+        }
+
+        div#fish > p.food{
+            padding: 1%;
+            width: 15%;
+        }
+
+        p.ptext1{
+            padding-top: 3.5%;
+            padding-left: 2%;
+            text-align: start;
+        }
+
+        .ptext{
+            padding-top: 7%;
+            padding-left: 4%;
+            padding-right: 4%;
+            text-align: start;
+        }
+    }
+
+    @media (max-width: 767px){
+        div{
+            float: left;
+            margin-top: 4%;
+            width: 100%;
+        }
+
+        .food{
+            float: right;
+            width: 31%;
+            padding: 2%;
+            text-align: center;
+            margin-top: 0%;
+        }
+        
+        .ptext, .ptext1{
+            padding-top: 7%;
+            padding-left: 5%;
+            padding-right: 2%;
+            text-align: start;
+        }
+    }
