@@ -41,6 +41,23 @@ div.navbar-brand{
   margin-bottom: 5%;
 }
 
+.navbar-toggler {
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+  
+}
+
+@media (min-width:768px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
 
 
 
